@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DowloadButton(
+      home: const DowloadButton(
         status: DownloadStatus.downloaded,
         transitionDuration: Duration(),
       ),
